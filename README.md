@@ -20,6 +20,8 @@ $ dep ensure -add github.com/mobilusoss/go-yoctog
 
 ```golang
 log.SetFlags(log.Llongfile)
+// Default log level are debug
+//yoctog.SetLogLevel(yoctog.LevelDebug)
 yoctog.Info("こんにちわーるど！")
 ```
 
