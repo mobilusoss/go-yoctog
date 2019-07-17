@@ -1,4 +1,6 @@
 # go-yoctog
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmobilusoss%2Fgo-yoctog.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmobilusoss%2Fgo-yoctog?ref=badge_shield)
+
 
 too small log package wrapper
 
@@ -30,3 +32,7 @@ yoctog.Info("こんにちわーるど！")
 ```
 
 see example ( `example/main.go` ) file.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmobilusoss%2Fgo-yoctog.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmobilusoss%2Fgo-yoctog?ref=badge_large)
