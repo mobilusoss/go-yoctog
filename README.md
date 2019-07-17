@@ -1,6 +1,8 @@
 # go-yoctog
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmobilusoss%2Fgo-yoctog.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmobilusoss%2Fgo-yoctog?ref=badge_shield)
-
+[![Go Report](https://goreportcard.com/badge/github.com/mobilusoss/go-yoctog)](https://goreportcard.com/report/github.com/mobilusoss/go-yoctog)
+[![codecov](https://codecov.io/gh/mobilusoss/go-yoctog/branch/master/graph/badge.svg)](https://codecov.io/gh/mobilusoss/go-yoctog)
+[![Documentation](https://godoc.org/github.com/mobilusoss/go-yoctog?status.svg)](https://godoc.org/github.com/mobilusoss/go-yoctog)
 
 too small log package wrapper
 
