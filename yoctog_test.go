@@ -8,7 +8,7 @@ import (
 )
 
 type TestCase struct {
-	Level Level
+	Level       Level
 	ExpectValue string
 }
 
@@ -21,23 +21,23 @@ func TestDebug(t *testing.T) {
 
 	testCase := []TestCase{
 		{
-			Level: LevelDebug,
+			Level:       LevelDebug,
 			ExpectValue: debugExpect,
 		},
 		{
-			Level: LevelInfo,
+			Level:       LevelInfo,
 			ExpectValue: debugSuppressExpect,
 		},
 		{
-			Level: LevelWarn,
+			Level:       LevelWarn,
 			ExpectValue: debugSuppressExpect,
 		},
 		{
-			Level: LevelError,
+			Level:       LevelError,
 			ExpectValue: debugSuppressExpect,
 		},
 		{
-			Level: LevelAllSuppress,
+			Level:       LevelAllSuppress,
 			ExpectValue: debugSuppressExpect,
 		},
 	}
@@ -58,23 +58,23 @@ func TestInfo(t *testing.T) {
 
 	testCase := []TestCase{
 		{
-			Level: LevelDebug,
+			Level:       LevelDebug,
 			ExpectValue: infoExpect,
 		},
 		{
-			Level: LevelInfo,
+			Level:       LevelInfo,
 			ExpectValue: infoExpect,
 		},
 		{
-			Level: LevelWarn,
+			Level:       LevelWarn,
 			ExpectValue: infoSuppressExpect,
 		},
 		{
-			Level: LevelError,
+			Level:       LevelError,
 			ExpectValue: infoSuppressExpect,
 		},
 		{
-			Level: LevelAllSuppress,
+			Level:       LevelAllSuppress,
 			ExpectValue: infoSuppressExpect,
 		},
 	}
@@ -95,23 +95,23 @@ func TestWarn(t *testing.T) {
 
 	testCase := []TestCase{
 		{
-			Level: LevelDebug,
+			Level:       LevelDebug,
 			ExpectValue: warnExpect,
 		},
 		{
-			Level: LevelInfo,
+			Level:       LevelInfo,
 			ExpectValue: warnExpect,
 		},
 		{
-			Level: LevelWarn,
+			Level:       LevelWarn,
 			ExpectValue: warnExpect,
 		},
 		{
-			Level: LevelError,
+			Level:       LevelError,
 			ExpectValue: warnSuppressExpect,
 		},
 		{
-			Level: LevelAllSuppress,
+			Level:       LevelAllSuppress,
 			ExpectValue: warnSuppressExpect,
 		},
 	}
@@ -132,23 +132,23 @@ func TestError(t *testing.T) {
 
 	testCase := []TestCase{
 		{
-			Level: LevelDebug,
+			Level:       LevelDebug,
 			ExpectValue: errorExpect,
 		},
 		{
-			Level: LevelInfo,
+			Level:       LevelInfo,
 			ExpectValue: errorExpect,
 		},
 		{
-			Level: LevelWarn,
+			Level:       LevelWarn,
 			ExpectValue: errorExpect,
 		},
 		{
-			Level: LevelError,
+			Level:       LevelError,
 			ExpectValue: errorExpect,
 		},
 		{
-			Level: LevelAllSuppress,
+			Level:       LevelAllSuppress,
 			ExpectValue: errorSuppressExpect,
 		},
 	}
